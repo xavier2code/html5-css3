@@ -1,0 +1,53 @@
+/* Universal selector */
+* div {
+  border: 1px solid black;
+  padding: 3px;
+  margin: 3px;
+  box-sizing: border-box;
+}
+
+/* Type selector */
+
+/* Class selector */
+
+/* ID selector */
+
+/* Attribute selector */
+[data-type="primary"] {
+  color: red;
+}
+
+/* Grouping selector */
+strong,
+em,
+.my-class,
+[lang] {
+  color: seagreen;
+}
+
+/* pseudo-class selector */
+.psuedo1:hover {
+  background-color: blue;
+}
+.psuedo2:hover {
+  background-color: violet;
+}
+
+/* pseudo-element selector */
+.my-element::before {
+  content: "Prefix - ";
+}
+li::marker {
+  color: red;
+}
+li::selection {
+  background: black;
+  color: white;
+}
+
+/* Complex selectors */
+
+/* Descendant combinator */
+p strong {
+  color: blue;
+}
